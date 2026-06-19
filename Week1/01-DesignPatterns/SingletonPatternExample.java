@@ -1,10 +1,8 @@
 class Logger {
     private static Logger instance;
-    int a;
-    int b;
 
     private Logger() {
-        System.out.println("Logger being initialized");
+        System.out.println("Logger Started");
     }
 
     public static Logger getInstance() {
@@ -14,8 +12,36 @@ class Logger {
         return instance;
     }
 
-    public int log() {
-        return a + b;
+    public void log(String message) {
+        System.out.println("Customer received: " + message);
+    }
+}
+
+class Foodcart {
+    private String foodName;
+    private int quantity;
+    private int pricePerItem;
+
+    public Foodcart(String foodName, int quantity, int pricePerItem) {
+        this.foodName = foodName;
+        this.quantity = quantity;
+        this.pricePerItem = pricePerItem;
+    }
+
+    public String getFoodName() {
+        return foodName;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public int getPricePerItem() {
+        return pricePerItem;
+    }
+
+    public int getTotalAmount() {
+        return quantity * pricePerItem;
     }
 }
 
@@ -23,18 +49,23 @@ public class SingletonPatternExample {
 
     public static void main(String[] args) {
 
-        Logger user1 = Logger.getInstance();
-        Logger user2 = Logger.getInstance();
+        Foodcart order1 = new Foodcart("Idly", 2, 20);
+        Foodcart order2 = new Foodcart("Sambar", 1, 10);
 
-        user1.a = 5;
-        user2.a = 6;
+        System.out.println("Food Item:" + order1.getFoodName());
+        System.out.println("Quantity:" + order1.getQuantity());
+        System.out.println("Total Amount:" + order1.getTotalAmount());
 
-        user1.b = 7;
-        user2.b = 8;
+        Logger logger1 = Logger.getInstance();
+        logger1.log(order1.getFoodName());
 
-        System.out.println("user1 = " + user1.log());
-        System.out.println("user2 = " + user2.log());
+        System.out.println();
 
-        System.out.println(user1 == user2);
+        System.out.println("Food Item:" + order2.getFoodName());
+        System.out.println("Quantity:" + order2.getQuantity());
+        System.out.println("Total Amount:" + order2.getTotalAmount());
+
+        Logger logger2 = Logger.getInstance();
+        logger2.log(order2.getFoodName());
     }
 }
