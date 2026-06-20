@@ -65,7 +65,7 @@ Work is organized **week-wise**, with one folder per skill.
 
 | # | Skill | Mandatory Hands-on | Status |
 |---|---|---|---|
-| 1 | **Design Patterns** | Singleton, Factory Method | ⬜ |
+| 1 | **Design Patterns** | Singleton, Factory Method | ✅ Done |
 | 2 | **DSA** | E-commerce Search, Financial Forecasting | ⬜ |
 | 3 | **PL/SQL** | Control Structures, Stored Procedures | ⬜ |
 | 4 | **JUnit 5** | Setup, Assertions, AAA Pattern | ⬜ |
