@@ -15,7 +15,7 @@
 
 ## 👋 About Me
 
-**Praveen K S** — Aspiring AI & ML Engineer | 3rd yr, Vel Tech High Tech Engineering College
+**Praveen K S** — Aspiring AI & ML Engineer | 4th yr, Vel Tech High Tech Engineering College
 
 [<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />](https://praveenportfolio-one.vercel.app/)
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/praveen-ks-661646302/)
