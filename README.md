@@ -61,8 +61,6 @@ Work is organized **week-wise**, with one folder per skill.
 
 ## 📅 Week 1 — Foundations
 
-> Engineering Concepts (2 days) + Programming Languages (3 days)
-
 | # | Skill | Mandatory Hands-on | Status |
 |---|---|---|---|
 | 1 | **Design Patterns** | Singleton, Factory Method | ✅ Done |
