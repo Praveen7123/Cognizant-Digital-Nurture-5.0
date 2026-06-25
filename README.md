@@ -52,7 +52,7 @@ Work is organized **week-wise**, with one folder per skill.
 
 | Construct | Skills | Status |
 |---|---|---|
-| **1 · Engineering Concepts** | Design Patterns, DSA | 🟡 In Progress |
+| **1 · Engineering Concepts** | Design Patterns, DSA | ✅ Done |
 | **2 · Programming Languages** | PL/SQL, JUnit 5 + Mockito, SLF4J | ⬜ Pending |
 | **3 · Products & Frameworks** | Spring Core, JPA/Hibernate, REST, SonarQube, Microservices, React | ⬜ Pending |
 | **4 · Platforms & GenAI** | Git, DevOps/CICD, Docker, AWS, Agile, GenAI | ⬜ Pending |
@@ -64,7 +64,7 @@ Work is organized **week-wise**, with one folder per skill.
 | # | Skill | Mandatory Hands-on | Status |
 |---|---|---|---|
 | 1 | **Design Patterns** | Singleton, Factory Method | ✅ Done |
-| 2 | **DSA** | E-commerce Search, Financial Forecasting | ⬜ |
+| 2 | **DSA** | E-commerce Search, Financial Forecasting | ✅ Done |
 | 3 | **PL/SQL** | Control Structures, Stored Procedures | ⬜ |
 | 4 | **JUnit 5** | Setup, Assertions, AAA Pattern | ⬜ |
 | 5 | **Mockito** | Mocking & Stubbing, Verifying Interactions | ⬜ |

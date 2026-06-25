@@ -1,0 +1,16 @@
+# Compiled Java
+*.class
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# Excel temp/lock files
+~$*.xlsx
+
+# IDE
+.idea/
+.vscode/
+*.iml
