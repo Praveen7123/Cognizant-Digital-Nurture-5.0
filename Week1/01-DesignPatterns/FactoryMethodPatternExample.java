@@ -2,7 +2,6 @@ interface Document{
     void open();
 }
 
-//2.Creating the interfaces or abstract classes for different document types such as WordDocument, PdfDocument, and ExcelDocument.
 
 class WordDocument implements Document{
     public void open(){
@@ -22,7 +21,6 @@ class PdfDocument implements Document{
         System.out.println("Opening the PDF document...");
         try {
             Thread.sleep(2000);
-            //I just used this to delay the opening just like our application opening way...
         } 
         catch (InterruptedException e){
             System.out.println("Interrupted try again later");
@@ -45,13 +43,9 @@ class ExcelDocument implements Document{
     }
 }
 
-//4.Create an abstract class DocumentFactory with a method createDocument().
-
 abstract class DocumentFactory{
     abstract Document createDocument();
 }
-
-//3.Implement concrete classes for each document type that implements or extends the above interfaces or abstract classes.
 
 class WordFactory extends DocumentFactory{
     Document createDocument(){

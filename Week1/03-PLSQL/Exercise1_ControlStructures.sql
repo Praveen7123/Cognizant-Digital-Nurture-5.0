@@ -1,9 +1,6 @@
--- Exercise 1: Control Structures (uses the official schema)
--- Run 00-schema.sql first.
+
 SET SERVEROUTPUT ON;
 
--- Scenario 1: customers above 60 get a 1% discount on their loan interest rate.
--- Age is worked out from DOB using MONTHS_BETWEEN.
 BEGIN
    FOR rec IN (SELECT CustomerID, DOB FROM Customers) LOOP
       IF MONTHS_BETWEEN(SYSDATE, rec.DOB) / 12 > 60 THEN
@@ -16,7 +13,6 @@ END;
 /
 SELECT * FROM Loans;
 
--- Scenario 2: set IsVIP = TRUE for customers with balance over 10000
 BEGIN
    FOR rec IN (SELECT CustomerID, Balance FROM Customers) LOOP
       IF rec.Balance > 10000 THEN
@@ -28,9 +24,6 @@ BEGIN
 END;
 /
 SELECT CustomerID, Name, Balance, IsVIP FROM Customers;
-
--- Scenario 3: print reminders for loans due within the next 30 days
--- (a loan's due date is its EndDate)
 BEGIN
    FOR rec IN (
       SELECT l.LoanID, l.EndDate, c.Name

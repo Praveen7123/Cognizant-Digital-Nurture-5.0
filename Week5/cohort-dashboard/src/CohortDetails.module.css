@@ -1,0 +1,14 @@
+.box {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    /* 10px top/bottom, 20px left/right */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+dt {
+    font-weight: 500;
+    /* tag selector, as the doc asks */
+}

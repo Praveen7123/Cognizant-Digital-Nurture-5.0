@@ -53,9 +53,9 @@ Work is organized **week-wise**, with one folder per skill.
 | Construct | Skills | Status |
 |---|---|---|
 | **1 · Engineering Concepts** | Design Patterns, DSA | ✅ Done |
-| **2 · Programming Languages** | PL/SQL, JUnit 5 + Mockito, SLF4J | ⬜ Pending |
-| **3 · Products & Frameworks** | Spring Core, JPA/Hibernate, REST, SonarQube, Microservices, React | ⬜ Pending |
-| **4 · Platforms & GenAI** | Git, DevOps/CICD, Docker, AWS, Agile, GenAI | ⬜ Pending |
+| **2 · Programming Languages** | PL/SQL, JUnit 5 + Mockito, SLF4J | ✅ Done |
+| **3 · Products & Frameworks** | Spring Core, JPA/Hibernate, REST, SonarQube, Microservices, React | ✅ Done |
+| **4 · Platforms & GenAI** | Git, DevOps/CICD, Docker, AWS, Agile, GenAI | 🟡 In Progress |
 
 ---
 
@@ -65,10 +65,61 @@ Work is organized **week-wise**, with one folder per skill.
 |---|---|---|---|
 | 1 | **Design Patterns** | Singleton, Factory Method | ✅ Done |
 | 2 | **DSA** | E-commerce Search, Financial Forecasting | ✅ Done |
-| 3 | **PL/SQL** | Control Structures, Stored Procedures | ⬜ |
-| 4 | **JUnit 5** | Setup, Assertions, AAA Pattern | ⬜ |
-| 5 | **Mockito** | Mocking & Stubbing, Verifying Interactions | ⬜ |
-| 6 | **SLF4J** | Logging Error Messages & Warning Levels | ⬜ |
+| 3 | **PL/SQL** | Control Structures, Stored Procedures | ✅ Done |
+| 4 | **JUnit 5** | Setup, Assertions, AAA Pattern | ✅ Done |
+| 5 | **Mockito** | Mocking & Stubbing, Verifying Interactions | ✅ Done |
+| 6 | **SLF4J** | Logging Error Messages & Warning Levels | ✅ Done |
+
+---
+
+## 📅 Week 2 — Spring Core & Data JPA
+
+| Skill | Mandatory Hands-on | Status |
+|---|---|---|
+| **Spring Core & Maven** | Basic Spring App, Dependency Injection, Maven Project | ✅ Done |
+| **Spring Data JPA / Hibernate** | Country CRUD, Query Methods, O/R Mapping | ✅ Done |
+
+## 📅 Week 3 — Spring REST (Boot 3)
+
+| Skill | Mandatory Hands-on | Status |
+|---|---|---|
+| **Spring REST** | Basic REST API, REST CRUD, Country XML Config | ✅ Done |
+| **Security** | JWT Authentication | ✅ Done |
+
+## 📅 Week 4 — Microservices & Code Quality
+
+| Skill | Mandatory Hands-on | Status |
+|---|---|---|
+| **Microservices** | Account + Loan services, Eureka Discovery, API Gateway | ✅ Done |
+| **SonarQube** | Code quality analysis guide | ✅ Done |
+
+## 📅 Week 5 — React Fundamentals
+
+| HOL | App | Status |
+|---|---|---|
+| 1 | myfirstreact | ✅ Done |
+| 2 | StudentApp (class components) | ✅ Done |
+| 3 | scorecalculatorapp (function component) | ✅ Done |
+| 4 | blogapp (lifecycle + fetch) | ✅ Done |
+| 5 | cohort-dashboard (CSS modules) | ✅ Done |
+
+## 📅 Week 6 — React Advanced
+
+| HOL | App | Status |
+|---|---|---|
+| 9 | cricketapp (ES6) | ✅ Done |
+| 10 | officespacerentalapp (JSX) | ✅ Done |
+| 11 | eventexamplesapp (events) | ✅ Done |
+| 12 | ticketbookingapp (conditional rendering) | ✅ Done |
+| 13 | bloggerapp (lists & conditional rendering) | ✅ Done |
+
+## 📅 Week 7 — Platforms & GenAI
+
+| Skill | Mandatory Hands-on | Status |
+|---|---|---|
+| **Git** | Config, .gitignore, branching, merging | 🟡 In Progress |
+| **Angular** | Angular Hands-on | ⬜ Pending |
+| **DevOps / Docker / Cloud / Agile / GenAI** | Concept modules + quizzes | ⬜ Pending |
 
 ---
 
@@ -76,13 +127,13 @@ Work is organized **week-wise**, with one folder per skill.
 
 ```
 Cognizant-Digital-Nurture-5.0/
-└── Week1/
-    ├── 01-DesignPatterns/
-    ├── 02-DSA/
-    ├── 03-PLSQL/
-    ├── 04-JUnit/
-    ├── 05-Mockito/
-    └── 06-SLF4J/
+├── Week1/   → Design Patterns, DSA, PL/SQL, JUnit, Mockito, SLF4J
+├── Week2/   → Spring Core & Maven, Spring Data JPA
+├── Week3/   → Spring REST, JWT
+├── Week4/   → Microservices (Eureka, Gateway), SonarQube
+├── Week5/   → React HOL 1-5
+├── Week6/   → React HOL 9-13
+└── Week7/   → Git, Angular, DevOps, Docker, Cloud, GenAI
 ```
 
 ---

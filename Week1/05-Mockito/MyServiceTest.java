@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class MyServiceTest {
 
-    // Exercise 1: mock the api and stub the method to return fake data
     @Test
     public void testFetchData() {
         ExternalApi mockApi = Mockito.mock(ExternalApi.class);
@@ -17,7 +16,6 @@ public class MyServiceTest {
         assertEquals("Mock Data", result);
     }
 
-    // Exercise 2: check that getData() was actually called
     @Test
     public void testGetDataCalled() {
         ExternalApi mockApi = Mockito.mock(ExternalApi.class);

@@ -1,4 +1,3 @@
-// simple class that we will test with JUnit
 public class Calculator {
 
     public int add(int a, int b) {

@@ -1,8 +1,5 @@
--- Exercise 3: Stored Procedures (uses the official schema)
--- Run 00-schema.sql first.
 SET SERVEROUTPUT ON;
 
--- Scenario 1: add 1% monthly interest to all savings accounts
 CREATE OR REPLACE PROCEDURE ProcessMonthlyInterest IS
 BEGIN
     UPDATE Accounts
@@ -12,7 +9,6 @@ BEGIN
 END;
 /
 
--- Scenario 2: add a bonus % to salary of employees in a department
 CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus (
     dept_name IN VARCHAR2,
     bonus_percent IN NUMBER
@@ -26,7 +22,6 @@ BEGIN
 END;
 /
 
--- Scenario 3: transfer funds between accounts if balance is enough
 CREATE OR REPLACE PROCEDURE TransferFunds (
     from_account IN NUMBER,
     to_account IN NUMBER,
@@ -49,7 +44,6 @@ BEGIN
 END;
 /
 
--- testing the procedures
 BEGIN
     ProcessMonthlyInterest;
     UpdateEmployeeBonus('IT', 10);

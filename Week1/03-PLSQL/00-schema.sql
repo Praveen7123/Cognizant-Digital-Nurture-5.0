@@ -1,6 +1,3 @@
--- Official schema from the deepskilling PL/SQL assignment. Run this first.
--- Note: IsVIP column is added to Customers because Exercise 1 Scenario 2
--- needs it (the base schema does not include it).
 SET SERVEROUTPUT ON;
 
 DROP TABLE Transactions;
