@@ -113,14 +113,6 @@ Work is organized **week-wise**, with one folder per skill.
 | 12 | ticketbookingapp (conditional rendering) | ✅ Done |
 | 13 | bloggerapp (lists & conditional rendering) | ✅ Done |
 
-## 📅 Week 7 — Platforms & GenAI
-
-| Skill | Mandatory Hands-on | Status |
-|---|---|---|
-| **Git** | Config, .gitignore, branching, merging | 🟡 In Progress |
-| **Angular** | Angular Hands-on | ⬜ Pending |
-| **DevOps / Docker / Cloud / Agile / GenAI** | Concept modules + quizzes | ⬜ Pending |
-
 ---
 
 ## 📂 Repository Structure
@@ -133,7 +125,6 @@ Cognizant-Digital-Nurture-5.0/
 ├── Week4/   → Microservices (Eureka, Gateway), SonarQube
 ├── Week5/   → React HOL 1-5
 ├── Week6/   → React HOL 9-13
-└── Week7/   → Git, Angular, DevOps, Docker, Cloud, GenAI
 ```
 
 ---
